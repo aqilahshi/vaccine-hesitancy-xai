@@ -1,14 +1,10 @@
 # Explainable Vaccine Hesitancy Prediction System with XAI Fusion
 
----
-
 ## 🔍 Overview
 
 Vaccine hesitancy remains a critical challenge in public health, particularly among healthcare workers where informed and evidence-based decisions are essential. While machine learning models can achieve high predictive accuracy, they often lack transparency, limiting their usefulness in real-world decision-making.
 
 This project presents an explainable machine learning framework that integrates predictive modeling with advanced explainability techniques to identify and interpret the key factors influencing COVID-19 vaccine hesitancy among Malaysian healthcare workers.
-
----
 
 ## 🎯 Problem Statement
 
@@ -20,8 +16,6 @@ This project addresses:
 * Transparent and interpretable model decisions
 * Identification of key behavioral and perception-based factors
 
----
-
 ## 🧠 Objectives
 
 * Develop predictive models for vaccine hesitancy (Primary and Booster doses)
@@ -30,7 +24,6 @@ This project addresses:
 * Improve explanation consistency through fusion of SHAP and LIME
 * Identify significant features aligned with behavioral frameworks
 
----
 
 ## 📊 Dataset
 
@@ -43,8 +36,6 @@ The dataset consists of survey responses from Malaysian healthcare workers, capt
 * Beliefs and attitudes (mandatory vaccination, alternative medicine)
 * Trust and misinformation factors
 
----
-
 ## ⚙️ Methodology
 
 ### 1. Data Preprocessing
@@ -52,8 +43,6 @@ The dataset consists of survey responses from Malaysian healthcare workers, capt
 * Handling missing values
 * Encoding categorical variables
 * Normalization of features
-
----
 
 ### 2. Feature Selection & Aggregation
 
@@ -71,8 +60,6 @@ The dataset consists of survey responses from Malaysian healthcare workers, capt
 
 These transformations improve model interpretability and reduce dimensionality.
 
----
-
 ### 3. Model Development
 
 The following machine learning models were evaluated:
@@ -85,8 +72,6 @@ The following machine learning models were evaluated:
 * Ensemble models (Bagging, Boosting, XGBoost)
 
 The **Linear SVM model** achieved the best performance and was selected for further analysis.
-
----
 
 ### 4. Explainable AI Framework
 
@@ -113,8 +98,6 @@ To improve explanation consistency:
 
 This approach enhances robustness and reliability of explanations.
 
----
-
 ### 5. Experimental Design
 
 The experiments were conducted under multiple configurations:
@@ -122,8 +105,6 @@ The experiments were conducted under multiple configurations:
 * Primary dose dataset
 * Booster dose dataset
 * All features vs selected features vs aggregated features
-
----
 
 ## 📈 Results
 
@@ -142,16 +123,12 @@ These findings align with:
 * Health Belief Model (HBM)
 * Theory of Planned Behavior (TPB)
 
----
-
 ## 🧩 Key Contributions
 
 * Developed an explainable ML framework integrating global and local explanations
 * Proposed a fusion-based XAI approach for improved consistency
 * Demonstrated the importance of interpretability in healthcare analytics
 * Provided actionable insights into vaccine hesitancy factors
-
----
 
 ## 🛠️ Tech Stack
 
@@ -163,8 +140,6 @@ These findings align with:
 * NumPy
 * Matplotlib
 * Seaborn
-
----
 
 ## 📂 Project Structure
 
@@ -181,8 +156,6 @@ vaccine-hesitancy-xai/
 └── README.md
 ```
 
----
-
 ## 🔒 Data Availability
 
 The dataset used in this project contains sensitive survey data from Malaysian healthcare workers and cannot be publicly shared due to privacy and ethical considerations.
@@ -193,8 +166,6 @@ To reproduce this project, users may:
 * Simulate data with similar structure
 * Follow the provided methodology and pipeline
 
----
-
 ## 🚀 Future Work
 
 * Deploy as an explainable decision-support system
@@ -202,13 +173,9 @@ To reproduce this project, users may:
 * Extend the framework to other domains (e.g., finance, risk modeling)
 * Integrate additional explainability techniques
 
----
-
 ## 📌 Conclusion
 
 This project demonstrates that combining machine learning performance with explainability is essential for high-stakes domains. The proposed XAI fusion framework improves the consistency and reliability of explanations, making it suitable for real-world decision-making in healthcare and beyond.
-
----
 
 ## 👤 Author
 
